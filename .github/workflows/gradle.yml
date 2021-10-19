@@ -34,8 +34,9 @@ jobs:
        cd gdxTesting
        git checkout gh-pages
        git pull
-       rm -rf *
-       cp 'html/build/dist' .
+       rm -rf *.*
+       rm -rf assets/ html/ WEB-INF/
+       cp -f ../html/build/dist/* .
        git add .
        git commit --allow-empty -m "Updating pages"
        git push
