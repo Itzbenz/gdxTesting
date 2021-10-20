@@ -1,4 +1,10 @@
 d:assets:assets:0:application/unknown:1
+d:sounds:sounds:0:application/unknown:1
+a:sounds/water_drop.wav:sounds/water_drop-9bcc5d376fd504c51537ced31ac6383d.wav:121274:audio/x-wav:1
+a:sounds/under_tree_rain.mp3:sounds/under_tree_rain-c70bac998901e121d2264a1c5774d79e.mp3:1013133:application/unknown:1
+d:sprite:sprite:0:application/unknown:1
+i:sprite/droplet.png:sprite/droplet-269a0e08aaffd5ad167c6eb9d38e0700.png:4163:image/png:1
+i:sprite/bucket.png:sprite/bucket-a9866a7529b4be455a38d18e51aaad36.png:3023:image/png:1
 i:badlogic.jpg:badlogic-ba3e909e98a4c58c6a15f043f2e1a8a7.jpg:68465:image/jpeg:1
 t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:particles.fragment-b90524761fdf09b0a836056d590c30b8.glsl:820:application/unknown:1
 t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:particles.vertex-f25b8b2fae10b9bfa09bfdd484923148.glsl:2886:application/unknown:1
