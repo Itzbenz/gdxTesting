@@ -4,6 +4,7 @@ import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
 import com.badlogic.gdx.backends.gwt.GwtGraphics;
+import com.badlogic.gdx.backends.gwt.preloader.Preloader;
 import io.itzbenz.GdxTestingItz;
 
 public class HtmlLauncher extends GwtApplication {
@@ -16,7 +17,12 @@ public class HtmlLauncher extends GwtApplication {
     
             return config;
         }
-    
+
+    @Override
+    public Preloader.PreloaderCallback getPreloaderCallback() {
+        return super.getPreloaderCallback();
+    }
+
     @Override
     public ApplicationListener createApplicationListener() {
         return new GdxTestingItz();
