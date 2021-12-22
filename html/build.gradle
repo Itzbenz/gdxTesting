@@ -12,11 +12,13 @@ gwt {
         strict = true;
         disableCastChecking = true;
         style = org.wisepersist.gradle.plugins.gwt.Style.DETAILED
+
     }
 }
 
-import org.wisepersist.gradle.plugins.gwt.GwtSuperDev
+
 import org.akhikhl.gretty.AppBeforeIntegrationTestTask
+import org.wisepersist.gradle.plugins.gwt.GwtSuperDev
 
 gretty.httpPort = 8080
 gretty.resourceBase = project.buildDir.path + "/gwt/draftOut"
