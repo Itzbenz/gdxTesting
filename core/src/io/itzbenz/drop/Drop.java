@@ -99,7 +99,7 @@ public class Drop extends ApplicationAdapter {
         font.draw(batch, "Score: " + score, 0, textY);
         font.draw(batch, "Droplet Peak: " + rainDropPool.peak, 0, textY = textY - space);
         font.draw(batch, "FPS: " + fps, 0, textY = textY - space);
-        
+    
         lastUpdate = TimeUtils.millis();
         batch.end();
         

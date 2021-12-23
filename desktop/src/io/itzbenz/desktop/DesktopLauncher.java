@@ -6,11 +6,11 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import io.itzbenz.GdxTestingItz;
 
 public class DesktopLauncher {
-	public static void main (String[] arg) {
+    
+    public static void main(String[] arg) throws Throwable {
         LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
         ApplicationListener listener = new GdxTestingItz();
-        config.title = listener.getClass()
-                               .getSimpleName();
+        config.title = listener.getClass().getSimpleName();
         new LwjglApplication(listener, config);
     }
 }
